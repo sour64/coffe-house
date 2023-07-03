@@ -1,0 +1,128 @@
+/* Установка шрифта */
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Установка цвета фона */
+body {
+    background-color: #578bde;
+}
+
+/* Установка отступов для заголовка */
+.header {
+    margin: 20px 0;
+}
+
+/* Установка стиля для заголовка */
+.title {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Установка отступов для формы заказа */
+.order {
+    margin: 20px 0;
+}
+
+/* Установка отступов и границ формы заказа */
+.order {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Установка цвета фона для формы заказа */
+.order {
+    background-color: #ffffff;
+}
+
+/* Установка отступов для поля ввода ФИО */
+.order__fio {
+    margin-bottom: 10px;
+}
+
+/* Установка стилей для поля ввода ФИО */
+.order__fio input[type="text"] {
+    width: 15%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 4%;
+    margin-bottom: 10px;
+}
+
+/* Установка стилей для блока с заказами */
+.orders {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Установка стилей для блока с напитками */
+.order__coffee {
+    width: 48%;
+}
+
+/* Установка стилей для блока с едой */
+.order__food {
+    width: 48%;
+}
+
+/* Установка стилей для каждого элемента заказа */
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Установка стилей для чекбокса */
+.checkbox {
+    margin-right: 10px;
+}
+
+/* Установка стилей для названия товара */
+label {
+    font-size: 16px;
+}
+
+/* Установка стилей для поля ввода количества товара */
+input[type="number"] {
+    width: 50px;
+    margin-left: 10px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* Установка стилей для итоговой суммы заказа */
+.total {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* Установка стилей для суммы заказа */
+.sum {
+    font-weight: normal;
+}
+
+/* Установка стилей для кнопки оформления заказа */
+.btn {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Установка стилей для кнопки при наведении */
+.btn:hover {
+    background-color: #3e8e41;
+}
