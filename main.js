@@ -50,13 +50,13 @@ quantityInputs.forEach((input) => {
 function calcAmount() {
     totalAmount = 0;
 
-    Object.keys(products).forEach((key) => {
-        const product = products[key];
+    Object.values(products).forEach(product => {
         if (product.checkbox.checked) {
-            totalAmount += (parseInt(product.quantityInput.value) * parseInt(product.checkbox.value));
+            totalAmount += parseInt(product.quantityInput.value) * parseInt(product.checkbox.value);
         }
-        resultElem.textContent = totalAmount;
     });
+
+    resultElem.textContent = totalAmount;
 }
 
 function handleClick() {
